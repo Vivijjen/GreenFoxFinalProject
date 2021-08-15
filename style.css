@@ -83,7 +83,13 @@ h1 {
   padding-right: 15px;
   margin-bottom: 82px;
   font-family: 'Varela Round', sans-serif;
-  
+  visibility: hidden;
+}
+
+
+
+.mySlides:hover .text-box{
+  visibility: visible;
 }
 
 h4 {
