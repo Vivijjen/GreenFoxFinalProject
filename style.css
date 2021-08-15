@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+  justify-items: center;
+}
+
+main {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+ 
+ }
+
+body {
+  background-image: url(pic/benjamin-salvatore-gfz8qqKcipo-unsplash.jpg);
+  background-position: bottom right;
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+
+}
+
+h1 {
+  font-family: 'Indie Flower', cursive;
+  text-align: center;
+  text-shadow: 2px 2px 8px #332d2d;
+}
+
+.GalleryContainer {
+  position: relative;
+  width: 800px;
+  box-shadow: 0 0px 40px;
+}
+
+.mySlides {
+  display: none;
+}
+.mySlides img {
+  height: 500px;;
+  }
+  
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.pic1 {
+  position: relative;
+}
+
+.text-box {
+  position: absolute;
+  bottom: 60px;
+  right: 0px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 82px;
+  font-family: 'Varela Round', sans-serif;
+  
+}
+
+h4 {
+  text-align: start;
+  font-size: 20px;
+  margin-bottom: 1px;
+  margin-top: 10px;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-image: url(pic/Cherry\ Blossom\ Tour\ \ Japan\ National\ Day\ \ Taobao\ \ Electricity\ Supplier\ \ Poster\ \ Banner.jpg);
+  padding: 2px 16px;
+  color:black;
+  font-family: 'Comfortaa', cursive;
+  
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 16.66%;
+}.column img{
+  height: 80px;
+  width: 80px;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}

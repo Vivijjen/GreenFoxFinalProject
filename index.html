@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="<link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="<link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<main>
+  <h1> Japan "Land of the Rising sun"</h1>
+  <div class="GalleryContainer">
+
+    <!-- Full-width images  -->
+    <div class="mySlides">
+      <div class="numbertext">1 / 6</div>
+      <img src="Pic/shibuya-crossing-tokyo-i83276.jpg" style="width:100%">
+      <div class="text-box">
+         <p>Shibuya (渋谷区 Shibuya-ku) is a special ward in Tokyo, Japan. As a major commercial and finance center, it houses two of the busiest railway stations in the world, Shinjuku Station (southern half) and Shibuya Station.</p>
+      </div>
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 6</div>
+      <img src="Pic/osaka.jpg" style="width:100%">
+      <div class="text-box">
+        <p>Osaka (Japanese: 大阪市,) is a designated city in the Kansai region of Honshu in Japan. It is the capital city of Osaka Prefecture and as of 1 January 2012, has an estimated population of 2,668,586. Osaka is also the largest component of the Keihanshin Metropolitan Area, the second-largest metropolitan area in Japan[4] and the 10th largest urban area in the world with more than 19 million inhabitants.</p>
+     </div>
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 6</div>
+      <img src="Pic/Kyoto.jpg" style="width:100%">
+      <div class="text-box">
+        <p>Kyoto (Japanese: 京都, Kyōto ), officially Kyoto City (京都市, Kyōto-shi,), is the capital city of Kyoto Prefecture in Japan. Located in the Kansai region on the island of Honshu, Kyoto forms a part of the Keihanshin metropolitan area along with Osaka and Kobe. As of 2021, the city had a population of 1.45 million, making up 57% of the prefecture's total population.</p>
+     </div>
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">4 / 6</div>
+      <img src="Pic/Japan-Cherry-Blossom-0012.jpg" style="width:100%">
+      <div class="text-box">
+        <p>A cherry blossom is a flower of many trees of genus Prunus or Prunus subg. Cerasus. They are also known as Japanese cherry and Sakura (桜 or 櫻; さくら or サクラ). They generally refer to ornamental cherry trees, not to confuse with cherry trees that produce fruit for eating.[4][5] It is considered the national flower of Japan.[6]</p>
+      </div>
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">5 / 6</div>
+      <img src="Pic/gesa.jpg" style="width:100%">
+      <div class="text-box">
+        <p>Geisha (芸者), also known as geiko (芸子) (in Kyoto and Kanazawa) or geigi (芸妓) are a class of female Japanese performance artists and entertainers trained in traditional Japanese performing arts styles, such as dance, music and singing, as well as being proficient conversationalists and hosts. Their distinct appearance is characterised by long, trailing kimono, traditional hairstyles and oshiroi make-up. Geisha entertain at parties known as ozashiki, often for the entertainment of wealthy clientele.</p>
+      </div>
+      
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">6 / 6</div>
+      <img src="Pic/anime.webp" style="width:100%">
+      <div class="text-box">
+        <p>Anime (Japanese: アニメ) is hand-drawn and computer animation originating from Japan. In Japan and in Japanese, anime (a term derived from the English word animation) describes all animated works, regardless of style or origin. However, outside of Japan and in English, anime is colloquial for Japanese animation and refers specifically to animation produced in Japan. Animation produced outside of Japan with similar style to Japanese animation is referred to as anime-influenced animation.</p>
+      </div>
+    </div>
+
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <!-- Image text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+    <!-- Thumbnail images -->
+    <div class="row">
+      <div class=pic1>
+        <div class="column">
+          <img class="demo cursor" src="Pic/shibuya-crossing-tokyo-i83276.jpg" style="width:100%"
+            onclick="currentSlide(1)" alt="Tokyo">
+        </div>
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="Pic/osaka.jpg" style="width:100%" onclick="currentSlide(2)" alt="Osaka">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="Pic/Kyoto.jpg" style="width:100%" onclick="currentSlide(3)" alt="Kyoto">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="Pic/Japan-Cherry-Blossom-0012.jpg" style="width:100%" onclick="currentSlide(4)"
+          alt="Cherry Blossom">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="Pic/gesa.jpg" style="width:100%" onclick="currentSlide(5)" alt="Gesa">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="Pic/anime.webp" style="width:100%" onclick="currentSlide(6)" alt="Anime">
+      </div>
+    </div>
+  </div>
+</main>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="scripts.js"></script>
+</body>
+
+</html>
